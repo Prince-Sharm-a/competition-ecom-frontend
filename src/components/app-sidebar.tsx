@@ -51,7 +51,7 @@ const items: SidebarItem[] = [
 
 export function AppSidebar() {
   return (
-    <Sidebar className="">
+    <Sidebar className="block md:w-0 overflow-hidden md:hidden">
       <SidebarHeader>Shopy</SidebarHeader>
       <SidebarContent>
         <SidebarGroup >
